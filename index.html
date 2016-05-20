@@ -11,9 +11,11 @@
    <h1> Bienvenido </h1>
    <h> por favor rellene los campos</h>
    <br>
-    <input id="u" type="text" placeholder="Usuario-nombre" >
-    <input id="c" type=number pattern="[0-9]" name="numero" maxlength="10" placeholder="*numeros* codigo-9-digitos">
-    b
+    <input id="u" type="text" placeholder="Usuario-nombre" title="Ingrese su nombre " required/>
+    <input id="c" type=number pattern="[0-9]" name="numero" maxlength="10" placeholder="*numeros* codigo-9-digitos" title="Ingrese numeros " required pattern="[A-Za-z] ">
+   <button  type="button" onclick="saludo()" value="Alerta"> enviar</button>
+   <button  type="button" onclick="saludo()" value="Alerta"> guardar</button>
+
 </form>
 
 </body>

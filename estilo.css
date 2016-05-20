@@ -4,33 +4,47 @@
     padding: 0px;
 }
 body{
-    background:url(img/i1.jpg)#2b2b2a;
-
-    background-position: center;
+    background:url(img/i4.jpg)#91912a;
+    background-size: 100%;
 }
 form{
-  background: #333;
+  background: #74735e;
     width: 360px ;
 
-    border: 1px solid #333;
+    border: 1px solid #fae7e7;
     border-radius: 19px 19px 19px 19px;
-    box-shadow:inset 0 0 10px #000;
+    box-shadow:inset 0 0 10px #862f2f;
     margin: 100px auto;
 }
 form h1{
 
 font-family: 'Pinyon Script', cursive;
   text-align: center;
-    color: aqua;
+    color: #000000;
     font-weight: normal;
     font-size: 40px;
-    margin: 30px 0pt;
+    margin:20px 0pt;
 }
+form h{
+    text-align: center;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 20px;
+    margin:-55px 0pt;
+    padding: 0px 60px;
+}
+
 form input{
+    background-color: #ffffff;
     width: 280px;
     height: 35px;
     margin: 10px 30px;
     padding: 0 10px;
     color: #000;
     text-align: center;
+}
+form button{
+    width: 70px;
+    margin: 0px 0 10px 70px;
+    height: 20px;
 }
