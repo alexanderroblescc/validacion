@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <title>Emdeaf</title>
     <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="JAVA.js">
+
+
 </head>
 <body>
 
@@ -11,10 +14,12 @@
    <h1> Bienvenido </h1>
    <h> por favor rellene los campos</h>
    <br>
-    <input id="u" type="text" placeholder="Usuario-nombre" title="Ingrese su nombre " required/>
-    <input id="c" type=number pattern="[0-9]" name="numero" maxlength="10" placeholder="*numeros* codigo-9-digitos" title="Ingrese numeros " required pattern="[A-Za-z] ">
-   <button  type="button" onclick="saludo()" value="Alerta"> enviar</button>
-   <button  type="button" onclick="saludo()" value="Alerta"> guardar</button>
+
+    <input id="u" input type="text" name="nombre" requiredplaceholder="Usuario-nombre" title="Ingrese su nombre" required >
+    <input id="c" type=number  name="numero" maxlength="4" placeholder="*numeros* codigo-9-digitos" title="Ingrese numeros " required >
+
+    <button type="submit" value="Ingresar">ingresar</button>
+    <button type="button" >salir</button>
 
 </form>
 
